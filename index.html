@@ -48,7 +48,7 @@
     <link rel="stylesheet" href="assets/css/home.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Favicon -->
-    <link id="favicon" rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-png" />
+    <link id="favicon" rel="shortcut icon" href="assets/images/my-favicon.png" type="image/x-png" />
     <!-- Font awesome icons -->
     <link
       rel="stylesheet"
@@ -61,17 +61,20 @@
       href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
     />
     <script defer src="./assets/js/dynamicTitle.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M11CMZ12Q"></script>
+    <!-- Google Tag Manager -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'G-M11CMZ12Q');
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-M8P582CR');
     </script>
+    <!-- End Google Tag Manager -->
   </head>
 
   <body class="no-scroll-preload">
@@ -326,7 +329,16 @@
     ></script>
 
     <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G6D61F5TL4"></script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-M8P582CR"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Fetching our Google Tag Manager -->
 
     <!--JavaScript at end of body for optimized loading-->
