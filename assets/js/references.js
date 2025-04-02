@@ -2,45 +2,29 @@
 // Changes made 10/1/2021:
 // Added reviewphoto1 - reviewphoto5 in assets/references-page
 // Changed names and descriptions of references
-const referenceTable = document.querySelector(".pain");
+const referenceTable = document.querySelector('.pain');
 
 const references = [
   {
     sl1: 1,
-    name1 : "Smaranjit Ghose",
-        designation1 : "Product Manager, Microsoft",
-        image1 : "https://avatars.githubusercontent.com/u/46641503?v=4",
-        message1 : "John is a conscientious individual whom I mentored during JWOC'2021. His problem-solving skills and a keen interest in learning new skillsets are remarkable. His hardworking nature and team-building abilities make him different from others.",
-        
+    name1: 'Sohel Rana',
+    designation1: 'Senior Software Development Engineer, Randstad Japan',
+    image1: 'assets/images/references-page/sohel-rana.jpeg',
+    message1:
+      'I had a great opportunity to work with Mehadi at BJIT Ltd. for more than 2 years and consistently found him to be a valuable resource to our team. He possesses exceptional skills in frontend development, delivering high quality work on projects with some well renowned Japanese clients like Sonny, Fujitsu. Despite of his technical skills, Mehadi also a proactive and positive role player. I recommend Mehadi for his skills, dedication and his positive attitude which are always added value to the team.',
 
-        sl2:2,
-        name2 : "Anush Bhatia",
-        designation2 : "Senior Analyst, Capgemini", 
-        image2: "https://avatars.githubusercontent.com/u/40017559?v=4",
-        message2 : "John has the best grasping skills I have seen in a new developer. I got to know him through GSSOC'2021 when I mentored him, and he made an exceptional growth during the competition. He made some incredible contributions and has good experience with Open Source.",
-        
-        
-    },
-
-    {
-        sl1:3,
-        name1 : "Aditya Jyoti Paul",
-        designation1 : "Technical Analyst, Amazon",
-        image1 : "https://media-exp1.licdn.com/dms/image/C5603AQGEV-kzawPxjw/profile-displayphoto-shrink_800_800/0/1588602102622?e=1651708800&v=beta&t=8nxhFoR-WB4OKVltyYaVjmRpig_kQcvFsoa-eLjJPBQ",
-        message1 : "John and I have worked on several projects. Apart from technical skills, he also has good soft skills. He has good experience with debugging and has excellent leadership qualities.",
-        
-
-        sl2:4,
-        name2 : "Arnab Dutta Purkayastha",
-        designation2 : "Data Scientist, Flipkart",
-        image2 : "https://avatars.githubusercontent.com/u/59832779?v=4",
-        message2 : "John and I worked together during a hackathon and the thing that surprised me the most about him was his knowledge of fundamentals. He offered sincere help to the team throughout the competition. He is an impressive problem solver who is able to address complex issues strategically and confidently.",
+    sl2: 2,
+    name2: 'Md Mahbub Ul Alam',
+    designation2: 'Frontend Developer, Optimizely',
+    image2: 'assets/images/references-page/mahbub-alam.jpeg',
+    message2:
+      'I had the pleasure of working with Mehadi Hassan at BJIT for several years, collaborating on multiple front-end projects. He is an exceptional developer, a quick learner, and a great problem solver. His expertise in React.js is remarkable, and he consistently comes up with innovative solutions to complex challenges. Beyond his technical skills, Mehadi is always helpful and a great team player. I highly recommend him to anyone looking for a top-notch software engineer or technical lead!',
   },
 ];
 
 AOS.init();
 const fillData = () => {
-  let output = "";
+  let output = '';
 
   references.forEach(
     ({
@@ -96,4 +80,4 @@ const fillData = () => {
   );
   referenceTable.innerHTML = output;
 };
-document.addEventListener("DOMContentLoaded", fillData);
+document.addEventListener('DOMContentLoaded', fillData);
