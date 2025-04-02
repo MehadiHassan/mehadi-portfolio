@@ -72,7 +72,16 @@ body {
 
 .researchMainWrapper {
   color: var(--p-up);
-  margin-top: 200px;
+  margin-top: 100px;
+}
+
+.experience_head {
+  font-weight: bold;
+}
+
+/*color of experience page headings*/
+.my_experience {
+  color: #4e00bb;
 }
 
 #researchDetailsTable {
