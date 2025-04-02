@@ -9,7 +9,7 @@ const research = [
     conferences: '2017 4th International Conference on Networking, Systems and Security (NSysS)',
     researchYr: 2018,
     citebox: 'popup1',
-    image: 'assets/images/research-page/research-image-one.png',
+    image: 'assets/images/research-page/research-graph.png',
     citation: {
       vancouver:
         'David Pérez-Castro, Ana Fernández-Vilas, Manuel Fernández-Veiga, Rebeca Dìaz Redondo, "Relaying Schemes and Rate-distance trade-off for Multihop QKD", 2024 IEEE International Mediterranean Conference on Communications and Networking (MeditCom), pp.483-488, 2024.',
