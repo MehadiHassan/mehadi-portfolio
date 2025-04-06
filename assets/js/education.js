@@ -14,6 +14,12 @@ const moocscards = [
     cardImage: 'assets/images/education-page/secure-flag.png',
     moocLink: 'https://www.secureflag.com/s?6aebb34d-15d1-4917-b2ef-0a6123993702',
   },
+  {
+    title: 'Managing Project Stakeholders',
+    cardImage: 'assets/images/education-page/project_management_institute_logo.jpeg',
+    moocLink:
+      'https://www.linkedin.com/learning/certificates/d1ffdc238bee9014f3e322be220f8d18c40c5d03d15b1679d1c0c35995ab2879?trk=share_certificate',
+  },
 ];
 
 let currentItem = 0;
